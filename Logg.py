@@ -1,6 +1,7 @@
 import sys
 import os
 import datetime
+lol
 def makelog(name='log.txt'):
     log = open(str(name), 'w')
     log.close()
