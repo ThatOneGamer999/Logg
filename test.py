@@ -1,4 +1,5 @@
 import Logg
+from Logg import *
 import os
 makelog()
 if not os.path.isfile('log.txt'):
