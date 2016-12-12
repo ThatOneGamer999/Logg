@@ -4,3 +4,6 @@ python:
 script: python test.py
 os:
   - linux
+matrix:
+  allow_failures:
+    - os: osx
