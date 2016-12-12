@@ -7,6 +7,8 @@ if not os.path.isfile('log.txt'):
 else:
  print "Logging Creation \t\t\t\t\t[OK]"
 log('Info')
+log('Warning', 'warn')
+log('Danger', 'error')
 print "Logging          \t\t\t\t\t[OK]"
 f = open('log.txt', 'r');
 l = f.readlines()
