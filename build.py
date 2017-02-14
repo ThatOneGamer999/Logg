@@ -1,2 +1,2 @@
 import py_compile
-py_compile.compile("file.py")
+py_compile.compile("Logg.py")
