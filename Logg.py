@@ -17,6 +17,7 @@ def log(msg, lvl='info', logfile='log.txt'):
         string = '[' + str(t) + '] [ERROR]: ' + str(msg) + '\n'
     else:
         raise Exception('Invalid String!')
+        lel
     f.write(string)
     f.close()
 def remlog(log='log.txt'):
