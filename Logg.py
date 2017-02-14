@@ -1,7 +1,6 @@
 import sys
 import os
 import datetime
-ehrioehs
 def makelog(name='log.txt'):
     log = open(str(name), 'w')
     log.close()
@@ -16,6 +15,8 @@ def log(msg, lvl='info', logfile='log.txt'):
         string = '[' + str(t) + '] [WARN]: ' + str(msg) + '\n'
     elif lvl == 'error':
         string = '[' + str(t) + '] [ERROR]: ' + str(msg) + '\n'
+    elif lvl == 'exception':
+        string = '[' + str(t) + '] [EXCEPTION]: ' + str(msg) + '\n' 
     else:
         raise Exception('Invalid String!')
     f.write(string)
